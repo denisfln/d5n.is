@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>d5n.is @denisfln</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Just me...">
+    <meta name="keywords" content="denis, nunes">
+    <meta name="author" content="Denis Nunes">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="card2">
+        <div class="card-front">
+            <div class="line-numbers">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+            </div>
+            <code>
+                <span class="variable">try </span><span>{</span>
+                <div class="indent"><span class="variable">this</span><span>.</span><span class="property">loadPage</span><span>(<span class="string" id="demo"></span>)</span><span>;</span></div>
+                <span>}</span>
+                <span class="variable">catch</span><span>(<span class="string">e</span>)</span><span>{</span>
+                    <div class="indent"><span class="variable">this</span><span>.</span><span class="property">showError</span><span>(<span class="string">'404'</span><span>, </span><span class="string">'Not found'</span>)</span><span>;</span></div>
+                    <div class="indent"><span class="variable">this</span><span>.</span><span class="property">goBack</span><span>(<span class="string">'<a href="https://www.d5n.is">https://www.d5n.is</a>'</span>)<span>;</span></div>
+                    <span>}</span>
+            
+            </code>
+        </div>
+        <script>
+            document.getElementById("demo").innerHTML = window.location.href;
+            </script>
+    </div>
+</body>
+
+</html>
